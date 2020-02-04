@@ -72,8 +72,8 @@ header div {
     display: block;
     width: 100%;
     text-decoration: none;
-    color: black;
     border-right: solid 1px black;
+    color: black;
     font-weight: bold;
 }
 
@@ -90,4 +90,60 @@ header div {
     font-style: italic;
     font-size: 300%;
     margin-left: 60px;
+}
+
+@media screen and (max-width:750px) {
+    .mecaser {
+        font-size: 50px;
+    }
+    header {
+        width: auto;
+        height: 100px;
+        padding-left: 1cm;
+        background-color: #686de0;
+        border-radius: 15px 15px 0px 0px;
+        font-weight: bold;
+        -webkit-animation-name: couleur;
+        -webkit-animation-duration: 360s;
+        -webkit-animation-name: couleur;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: ease;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-iteration-count: infinite;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .mecaser {
+        font-size: 30px;
+    }
+    header {
+        width: auto;
+        height: 50px;
+        padding-left: 1cm;
+        background-color: #686de0;
+        border-radius: 15px 15px 0px 0px;
+        font-weight: bold;
+        -webkit-animation-name: couleur;
+        -webkit-animation-duration: 360s;
+        -webkit-animation-name: couleur;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: ease;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-iteration-count: infinite;
+    }
+    .menu {
+        display: block;
+        justify-content: space-between;
+        width: 20%;
+        list-style: none;
+    }
+    .bloc {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        border-right: none;
+        color: black;
+        font-weight: bold;
+    }
 }
