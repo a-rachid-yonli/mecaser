@@ -45,6 +45,12 @@ header {
     -webkit-animation-iteration-count: infinite;
 }
 
+body header div ul {
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+}
+
 .gallerie {
     border: #dbe2e2 groove 1px;
 }
